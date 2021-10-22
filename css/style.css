@@ -1,0 +1,256 @@
+/*
+	font family
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+/*common style start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+.ubunto{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.common_h{
+	margin: 30px 0;
+	font-size: 30px;
+	font-weight: 400;
+}
+.common_p{
+	font-size: 14px;
+	line-height: 25px;
+}
+/*common style end*/
+/*header start*/
+header{
+	padding: 55px 0;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 15px;
+	width: 10%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 60%;
+}
+.menu ul{
+	overflow: hidden;
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 55px;
+	font-size: 14px;
+	color: #626262;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 2px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*getway start*/
+.getway{
+	padding: 100px 0 130px 0;
+}
+.wrapper_2{
+	margin: 0 auto;
+	width: 75%;
+	overflow: hidden;
+}
+.getway_text span{}
+.getway_text h1{}
+.getway_text p{}
+.getway_text a{
+	text-decoration: none;
+	margin-top: 50px;
+	transition: .5s;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+}
+.getway_text a:hover{
+	border-bottom: 1px solid #b4ad9e;
+}
+/*getway end*/
+/*blog start*/
+.blog{}
+.full_blog{
+	overflow: hidden;
+}
+.blog_1{
+	margin-bottom: 130px;
+	width: 47%;
+	float: left;
+}
+.blog_img{}
+.blog_img img{
+	width: 100%;
+}
+.blog_1 .lignt{
+	margin-top: 30px;
+}
+.blog_1 h2{}
+.blog_1 p{}
+.blog_2{
+	float: right;
+}
+.blog_3{}
+.blog_4{
+	float: right;
+}
+/*blog end*/
+/*newsletter start*/
+.newsletter{
+	padding: 70px 0;
+	background: #f0f0f0;
+}
+.f_form{
+	text-align: center;
+}
+.f_form h1{
+	margin: 0 0 75px 0;
+	color: #333333;
+}
+form{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+form input{
+	padding: 12px 45px 12px 5px;
+	font-size: 14px;
+	width: 350px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    background: transparent;
+}
+form input:focus{
+	outline: none;
+}
+form button{
+	cursor: pointer;
+	border: none;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+form button img{
+	width: 100%;
+}
+/*newsletter end*/
+/*blog start*/
+.second_b{
+	padding: 100px 0;
+}
+.blog_5{
+	float: left;
+	margin-bottom: 0;
+}
+.blog_6{
+	float: right;
+	margin-bottom: 0;
+}
+/*blog end*/
+/*load more start*/
+.load_more{
+	padding: 60px 0 200px 0;
+}
+.lm_btn{
+	padding: 10px 0;
+	text-align: center;
+}
+.lm_btn a{
+	padding: 20px 35px;
+	font-size: 20px;
+	color: #626262;
+	text-decoration: none;
+	border: 1px solid #626262;
+	display: inline-block;
+	transition: .5s;
+}
+.lm_btn a:hover{
+	box-shadow: 0px 0px 12px -5px black;
+}
+/*load more end*/
+/*footer start*/
+footer{
+	padding: 35px 0;
+	background: #f0f0f0;
+}
+.full_footer{}
+.f_left{
+	width: 30%;
+	float: left;
+	margin-top: 16px;
+}
+.f_left span{
+	margin-right: 10px;
+	font-size: 14px;
+	color: black;
+}
+.f_right{
+	width: 30%;
+	float: right;
+}
+.icons{}
+.f_menu{}
+.f_menu ul{
+	float: right;
+}
+.f_menu ul li{
+	float: left;
+	list-style: none;
+}
+.f_menu ul li a{
+	margin: 0 5px;
+	padding: 0 5px;
+	color: #626262;
+	display: inline-block;
+	text-decoration: none;
+	transition: .8s;
+}
+.f_menu ul li:first-child a{
+	margin-right: 20px;
+	color: black;
+}
+.f_menu ul li:last-child a{
+	margin-right: 0;
+	padding-right: 0;
+}
+.f_menu ul li a:hover{
+	transform: translateY(-5px);
+}
+.f_menu ul li a i{}
+/*footer end*/
